@@ -1,7 +1,14 @@
 
 
 body {
+    display: flex;
+    background-image: url(../images/hero-image.jpg);
     background-color: #c09f8e;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
     
 }
 
@@ -9,53 +16,27 @@ body {
 
 header {
     
-    background-image: url(../images/hero-image.jpg);
-    height: 700px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    
+  height: 800px;
+  
 }
 
-nav {
-    display: flex;
-    position: fixed;
-    
-
-    
-    
+h2 {
+    font-family: Rubik;
+    color: #b46f87;
 }
 
-.nav-link {
+a {
     text-decoration: none;
-    color:#c09f8e;
-    
-   
-
 }
 
-.home-container {
-    display: flex;
-    justify-content: center;
-    height: 200px;
-    margin-top: 50px ;
-    padding-top: 50px;
-    
-    
 
-}
+#menu {
 
-.home-text {
-    background-color: #c09f8e;
-    opacity: 0.7;
-    height: 200px;
-    padding: 0px 10px 0 10px;
-    border-radius: 20%;
+    }
 
-
-}
 #services {
-    justify-content: center;
-    align-items: center;
+    padding-top: 800px ;
+    
+    
     
 }
